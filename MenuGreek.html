@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Μενού</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">ΘΟΙ Λειβαδιων</div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links" class="nav-links">
+      <a href="Home.html">Αρχική</a>
+      <a href="MenuGreek.html">Μενού</a>
+      <a href="contact.html">Επικοινωνία</a>
+      <a href="location.html">Τοποθεσία</a>
+    </nav>
+  </div>
+
+  <div class="language-flags">
+    <a href="MenuGreek.html"><img src="cyprus.webp" alt="Greek (Cyprus)" title="Ελληνικά" /></a>
+    <a href="MenuEnglish.html"><img src="UK.webp" alt="English (UK)" title="English" /></a>
+    <a href="MenuRussian.html"><img src="Russian.webp" alt="Russian" title="Русский" /></a>
+  </div>
+
+</header>
+
+<main class="menu-container">
+  <h1>Μενού</h1>
+
+  <section>
+    <h2>Είδη Σχάρας</h2>
+    <ul>
+      <li>Σουβλάκι Χοιρινό - 5,50</li>
+      <li>Σουβλάκι Μιξ - 5,50</li>
+      <li>Σουβλάκι Κοτόπουλο - 6,00</li>
+      <li>Σουβλάκι Κοτόπουλο Μιξ - 6,00</li>
+      <li>Σουβλάκι Χοιρινό ενισχυμένο - 7,00</li>
+      <li>Σουβλάκι Κοτόπουλο ενισχυμένο - 7,00</li>
+      <li>Σουβλάκι Μιξ ενισχυμένο - 7,50</li>
+      <li>Σουβλάκι Κοτόπουλο στον δίσκο* - 7,50</li>
+      <li>Σουβλάκι Μιξ στον δίσκο* - 7,50</li>
+      <li>Σιεφταλιές στον δίσκο - 7,00</li>
+      <li>Σιεφταλιές στην πίτα - 7,00</li>
+      <li>Jumbo μπιφτέκι 500-600 γρ. - 8,00</li>
+      <li>Μπείκον Στα κάρβουνα - 7,00</li>
+      <li>Φιλέτο κοτόπουλο στα κάρβουνα (πατάτα jacket) - 8,00</li>
+      <li>Ποικιλία - 10,00</li>
+      <li>Διάφορα σχάρας (Mix grilled) - 10,00</li>
+      <li>Λουκάνικα στην πίτα - 5,00</li>
+      <li>Παστουρμάς στην πίτα - 5,00</li>
+      <li>Παιδάκια Αρνίσια - 10,00</li>
+      <li>Συκώτι Βοδινό στο Δίσκο - 7,00</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Διάφορα</h2>
+    <ul>
+      <li>Γύρος Βοδινός στην πίτα - 5,50</li>
+      <li>Γύρος Βοδινός στον Δίσκο - 6,00</li>
+      <li>Γύρος Βοδινός με ελληνική πίτα - 6,00</li>
+      <li>Χαλούμι στην πίτα - 5,00</li>
+      <li>Νάκετς με πατάτες - 5,00</li>
+      <li>Μπριζόλα πατάτες - 8,00</li>
+      <li>Χωριάτικη σαλάτα (2 άτομα) - 6,00</li>
+      <li>Μακαρονάκι με μπουκιές - 9,00</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Νηστίσιμα</h2>
+    <ul>
+      <li>Καλαμάρι ροδέλα πατάτες και σαλάτα - 8,00</li>
+      <li>Ψάρι με πατάτες (Fish & chips) - 9,00</li>
+      <li>Μπέιτς & σαλάτα στην πίτα - 3,50</li>
+      <li>Μανιτάρια στην πίτα - 4,00</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>

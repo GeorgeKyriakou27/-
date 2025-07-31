@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">ΘΟΙ Λειβαδιων</div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links" class="nav-links">
+      <a href="Home.html">Home</a>
+      <a href="MenuEnglish.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <div class="language-flags">
+    <a href="MenuGreek.html"><img src="cyprus.webp" alt="Greek (Cyprus)" title="Ελληνικά" /></a>
+    <a href="MenuEnglish.html"><img src="UK.webp" alt="English (UK)" title="English" /></a>
+    <a href="MenuRussian.html"><img src="Russian.webp" alt="Russian" title="Русский" /></a>
+  </div>
+
+</header>
+
+<main class="menu-container">
+  <h1>Menu</h1>
+
+  <section>
+    <h2>Grilled Items</h2>
+    <ul>
+      <li>Pork Souvlaki - 5.50</li>
+      <li>Mixed Souvlaki - 5.50</li>
+      <li>Chicken Souvlaki - 6.00</li>
+      <li>Mixed Chicken Souvlaki - 6.00</li>
+      <li>Enhanced Pork Souvlaki - 7.00</li>
+      <li>Enhanced Chicken Souvlaki - 7.00</li>
+      <li>Enhanced Mixed Souvlaki - 7.50</li>
+      <li>Chicken Souvlaki on a tray* - 7.50</li>
+      <li>Mixed Souvlaki on a tray* - 7.50</li>
+      <li>Sheftalia on a tray - 7.00</li>
+      <li>Sheftalia in pita - 7.00</li>
+      <li>Jumbo Burger 500–600g - 8.00</li>
+      <li>Bacon on charcoal - 7.00</li>
+      <li>Chicken fillet on charcoal (jacket potato) - 8.00</li>
+      <li>Mixed Grill Platter - 10.00</li>
+      <li>Variety of Grills - 10.00</li>
+      <li>Sausage in pita - 5.00</li>
+      <li>Pastourmas in pita - 5.00</li>
+      <li>Lamb Chops - 10.00</li>
+      <li>Beef Liver on Tray - 7.00</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Various</h2>
+    <ul>
+      <li>Beef Gyro in pita - 5.50</li>
+      <li>Beef Gyro on tray - 6.00</li>
+      <li>Beef Gyro with Greek pita - 6.00</li>
+      <li>Halloumi in pita - 5.00</li>
+      <li>Nuggets with fries - 5.00</li>
+      <li>Steak with fries - 8.00</li>
+      <li>Greek salad (for 2) - 6.00</li>
+      <li>Macaroni with bites - 9.00</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fasting Options</h2>
+    <ul>
+      <li>Calamari rings with fries and salad - 8.00</li>
+      <li>Fish & chips - 9.00</li>
+      <li>Beets & salad in pita - 3.50</li>
+      <li>Mushrooms in pita - 4.00</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>

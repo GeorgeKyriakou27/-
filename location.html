@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">ΘΟΙ Λειβαδιων</div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links" class="nav-links">
+      <a href="Home.html">Αρχική</a>
+      <a href="MenuGreek.html">Μενού</a>
+      <a href="contact.html">Επικοινωνία</a>
+      <a href="location.html">Τοποθεσία</a>
+    </nav>
+  </div>
+</header>
+
+
+
+<h1>Our Location</h1>
+
+<!-- Centered Google Maps iframe -->
+<div class="map-container">
+  <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209.17937549674855!2d33.62611879510235!3d34.95099072485448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de29bb27e7fc69%3A0xdd972be9b3afa6d!2zzpjOn86ZIM6bzrXOuc6yzrHOtM65z4nOvQ!5e1!3m2!1sen!2s!4v1753983747221!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>

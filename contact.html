@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">ΘΟΙ Λειβαδιων</div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links" class="nav-links">
+      <a href="Home.html">Αρχική</a>
+      <a href="MenuGreek.html">Μενού</a>
+      <a href="contact.html">Επικοινωνία</a>
+      <a href="location.html">Τοποθεσία</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contact-container">
+  <h1>Phone Numbers:</h1>
+
+  <div class="contact-entry">
+    <span class="contact-name">Χριστοδουλος</span>
+    <span class="contact-number">+357 97 123456</span>
+  </div>
+
+  <div class="contact-entry">
+    <span class="contact-name">Κυριακος</span>
+    <span class="contact-number">+357 99 654321</span>
+  </div>
+
+</main>
+<p>Εάν επιθυμείτε να ζητήσετε μια παράδοση ή να κάνετε μια κράτηση, παρακαλώ καλέστε τους αριθμούς που παρέχονται παραπάνω.</p>
+<br>
+<p>If you would like to request a delivery or create a reservation please call the numbers provided above.</p>
+<br>
+<p>Если вы хотите запросить доставку или создать резервирование, пожалуйста, позвоните по указанным выше номерам.</p>
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>

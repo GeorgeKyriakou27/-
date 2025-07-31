@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Меню</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">ΘΟΙ Ливадьон</div>
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links" class="nav-links">
+      <a href="Home.html">Главная</a>
+      <a href="MenuRussian.html">Меню</a>
+      <a href="contact.html">Контакты</a>
+    </nav>
+  </div>
+
+  <div class="language-flags">
+    <a href="MenuGreek.html"><img src="cyprus.webp" alt="Greek (Cyprus)" title="Ελληνικά" /></a>
+    <a href="MenuEnglish.html"><img src="UK.webp" alt="English (UK)" title="English" /></a>
+    <a href="MenuRussian.html"><img src="Russian.webp" alt="Russian" title="Русский" /></a>
+  </div>
+
+</header>
+
+<main class="menu-container">
+  <h1>Меню</h1>
+
+  <section>
+    <h2>Блюда на гриле</h2>
+    <ul>
+      <li>Сувлаки из свинины – 5,50</li>
+      <li>Сувлаки микс – 5,50</li>
+      <li>Сувлаки из курицы – 6,00</li>
+      <li>Сувлаки курица микс – 6,00</li>
+      <li>Улучшенное сувлаки из свинины – 7,00</li>
+      <li>Улучшенное сувлаки из курицы – 7,00</li>
+      <li>Улучшенное сувлаки микс – 7,50</li>
+      <li>Куриное сувлаки на подносе* – 7,50</li>
+      <li>Сувлаки микс на подносе* – 7,50</li>
+      <li>Шефталья на подносе – 7,00</li>
+      <li>Шефталья в пите – 7,00</li>
+      <li>Джамбо бургер 500–600 г – 8,00</li>
+      <li>Бекон на углях – 7,00</li>
+      <li>Куриное филе на углях (картофель jacket) – 8,00</li>
+      <li>Ассорти гриль – 10,00</li>
+      <li>Разные блюда на гриле – 10,00</li>
+      <li>Сосиска в пите – 5,00</li>
+      <li>Пастурма в пите – 5,00</li>
+      <li>Бараньи отбивные – 10,00</li>
+      <li>Говяжья печень на подносе – 7,00</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Разное</h2>
+    <ul>
+      <li>Говяжий гирос в пите – 5,50</li>
+      <li>Говяжий гирос на подносе – 6,00</li>
+      <li>Говяжий гирос с греческой питой – 6,00</li>
+      <li>Халуми в пите – 5,00</li>
+      <li>Наггетсы с картошкой – 5,00</li>
+      <li>Стейк с картошкой – 8,00</li>
+      <li>Греческий салат (на 2 человек) – 6,00</li>
+      <li>Макароны с кусочками мяса – 9,00</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Постные блюда</h2>
+    <ul>
+      <li>Кольца кальмара с картофелем и салатом – 8,00</li>
+      <li>Рыба с картошкой (Fish & chips) – 9,00</li>
+      <li>Свекла и салат в пите – 3,50</li>
+      <li>Грибы в пите – 4,00</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>
